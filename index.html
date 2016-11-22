@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <title>Retron</title>
   </head>
-  <body>
+  <body style="background:#e2e2e2;">
     <h1>Hi! Welcome to world of desktop apps.</h1>
     <input type="button" value="Click Me!"/>
   </body>
   <script type="text/javascript"> 
       var fs = require('fs');
-      var content = "This is sample content";
-      fs.writeFileSync('Data/test.txt', content, 'utf-8');
-      var file = fs.readFileSync('Data/test.txt'); 
+      var content = "This is sample content - 3";
+      fs.writeFileSync('./Data/test1.txt', content, 'utf-8');
+      var file = fs.readFileSync('./Data/test1.txt'); 
       document.write(file); 
       
    </script>
